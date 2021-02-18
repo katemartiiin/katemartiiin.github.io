@@ -137,30 +137,185 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <img src="snips/piranha.PNG">
+                                                    <img id="piranha" data-target="modal-one" src="snips/piranha.PNG">
                                                 </td>
                                                 <td>
-                                                    <img src="snips/byq.png">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="snips/calendar.png">
-                                                </td>
-                                                <td>
-                                                    <img src="snips/gqf.png">
+                                                    <img id="byq" data-target="modal-two" src="snips/byq.png">
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src="snips/ipsumphbeta.PNG">
+                                                    <img id="byq-calendar" data-target="modal-three" src="snips/calendar.png">
                                                 </td>
                                                 <td>
-                                                    <img src="snips/pmsystem.png">
+                                                    <img id="gqf" data-target="modal-four" src="snips/gqf.png">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img id="ipsum" data-target="modal-five" src="snips/ipsumphbeta.PNG">
+                                                </td>
+                                                <td>
+                                                    <img id="pmsystem" data-target="modal-six" src="snips/pmsystem.png">
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <!-- Modal -->
+                                    <div class="modal" id="modal-one" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-body">
+                                                <span class="btn-close fs-14">x</span>
+                                                <table class="modal-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img class="modal-img" src="snips/piranha.PNG" width="800">
+                                                                <button class="prev-modal disabled" data-target="modal-six">Prev</button>
+                                                            </td>
+                                                            <td class="px-3">
+                                                                <h2 class="piranha-header">Piranha Off Road Website</h2>
+                                                                <a href="https://piranhaoffroad.com.au" class="fs-14">piranhaoffroad.com.au</a>
+                                                                <p class="piranha-desc">An ecommerce website for UTE Trays, Canopies, and off road 4WD products.</p>
+                                                                <p class="piranha-desc"><strong>Platform:&nbsp;</strong>Bigcommerce (customized theme)</p>
+                                                                <button class="next-modal" data-target="modal-two">Next</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" id="modal-two" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-body">
+                                                <span class="btn-close fs-14">x</span>
+                                                <table class="modal-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img class="modal-img" src="snips/byq.PNG" width="800">
+                                                                <button class="prev-modal" data-target="modal-one">Prev</button>
+                                                            </td>
+                                                            <td class="px-3">
+                                                                <h3 class="piranha-header">UTE Trays and Canopies Online Booking System</h3>
+                                                                <a href="https://piranhaoffroad.com.au/build-your-quote" class="fs-14">piranhaoffroad.com.au/build-your-quote</a>
+                                                                <p class="piranha-desc">An online booking system for UTE Trays and Canopies fitment that automatically generates quote price based on customer selection and collect booking deposit fees.</p>
+                                                                <p class="piranha-desc"><strong>Frameworks:&nbsp;</strong>Vanilla JS, jQuery, Native PHP</p>
+                                                                <button class="next-modal" data-target="modal-three">Next</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" id="modal-three" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-body">
+                                                <span class="btn-close fs-14">x</span>
+                                                <table class="modal-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img class="modal-img" src="snips/calendar.png" width="800">
+                                                                <button class="prev-modal" data-target="modal-two">Prev</button>
+                                                            </td>
+                                                            <td class="px-3">
+                                                                <h3 class="piranha-header">Online Booking Calendar</h3>
+                                                                <a href="https://piranhaoffroad.com.au/build-your-quote" class="fs-14">piranhaoffroad.com.au/build-your-quote</a>
+                                                                <p class="piranha-desc">An online booking calendar integrated with Teamup Calendar API that checks availability of dates, reserve dates with paid deposit fees, and disable weekends for fitments.</p>
+                                                                <p class="piranha-desc"><strong>Frameworks:&nbsp;</strong>Native PHP, Guzzle (HTTP Client)</p>
+                                                                <button class="next-modal" data-target="modal-four">Next</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" id="modal-four" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-body">
+                                                <span class="btn-close fs-14">x</span>
+                                                <table class="modal-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img class="modal-img" src="snips/gqf.png" width="800">
+                                                                <button class="prev-modal" data-target="modal-three">Prev</button>
+                                                            </td>
+                                                            <td class="px-3">
+                                                                <h3 class="piranha-header">Online Quote System</h3>
+                                                                <a href="https://piranhaoffroad.com.au/request-quote" class="fs-14">piranhaoffroad.com.au/request-quote</a>
+                                                                <p class="piranha-desc">An online quote system for 4WD products that automatically generates a quote for the customers and sends them an email copy of their quote.</p>
+                                                                <p class="piranha-desc"><strong>Frameworks:&nbsp;</strong>Vanilla JS, jQuery, Native PHP, PHPMailer (SMTP)</p>
+                                                                <button class="next-modal" data-target="modal-five">Next</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" id="modal-five" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-body">
+                                                <span class="btn-close fs-14">x</span>
+                                                <table class="modal-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="modal-img">
+                                                                    <img src="snips/ipsumphbeta.PNG" width="650">
+                                                                    <img src="snips/ipsumphbeta-job.PNG" width="650">
+                                                                </div>
+                                                                <button class="prev-modal" data-target="modal-four">Prev</button>
+                                                            </td>
+                                                            <td class="px-3">
+                                                                <h3 class="piranha-header">IPSUM PH Website</h3>
+                                                                <a href="https://ipsumphbeta.com" class="fs-14">ipsumphbeta.com</a>
+                                                                <p class="piranha-desc">A Laravel website with CMS for company's portfolio where admins can post blogs and visitors can enquire for projects or submit their applications for job openings.</p>
+                                                                <p class="piranha-desc"><strong>Frameworks:&nbsp;</strong>Laravel</p>
+                                                                <button class="next-modal" data-target="modal-six">Next</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" id="modal-six" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-body">
+                                                <span class="btn-close fs-14">x</span>
+                                                <table class="modal-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="modal-img text-center">
+                                                                    <img src="snips/pmsystem.png" width="650">
+                                                                    <img src="snips/pmsystem-rate.png" width="650">
+                                                                </div>
+                                                                <button class="prev-modal" data-target="modal-five">Prev</button>
+                                                            </td>
+                                                            <td class="px-3">
+                                                                <h3 class="piranha-header">Project Management System</h3>
+                                                                <p class="piranha-desc">A system that can manage employee tasks, generate employee monthly rates, set holidays and more.</p>
+                                                                <p class="piranha-desc"><strong>Frameworks:&nbsp;</strong>Vanilla JS, jQuery, Native PHP</p>
+                                                                <button class="next-modal disabled" data-target="modal-one">Next</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </section>
                             </div>
                             <div class="page" id="p4">

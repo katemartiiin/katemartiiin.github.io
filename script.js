@@ -108,7 +108,7 @@ $(document).ready(function(){
     nextArrow: $('.next'),
     infinite: true,
     speed: 300,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 4,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -143,5 +143,17 @@ $(document).ready(function(){
       // settings: "unslick"
       // instead of a settings object
     ]
+  });
+  $('.works-table img').click(function(){
+    var data_target = $(this).attr('data-target');
+    $('#' + data_target).show('fadeUp');
+  });
+  $('.next-modal, .prev-modal').click(function(){
+    var data_target = $(this).attr('data-target');
+    $('.modal').hide('fadeDown');
+    $('#' + data_target).show('fadeUp');
+  });
+  $('.btn-close').click(function(){
+    $('.modal').hide('fadeDown');
   });
 });
