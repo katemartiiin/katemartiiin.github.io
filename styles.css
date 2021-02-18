@@ -626,6 +626,9 @@ text-align: right;
   margin: 2rem 1rem;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
+.works-table img:hover{
+  cursor: pointer !important;
+}
 .next-modal{
   position: absolute;
   bottom: 5%;
@@ -736,5 +739,8 @@ text-align: right;
   }
   .slick-track{
     height: 100px !important;
+  }
+  .next-modal, .prev-modal{
+    font-size: 14px;
   }
 }
