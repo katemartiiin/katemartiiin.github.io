@@ -17,6 +17,7 @@ html, body, .page {
   .mx-auto-block{
     margin-left: auto;
     margin-right: auto;
+    display: block;
   }
   .mb-0{
     margin-bottom: 0;
