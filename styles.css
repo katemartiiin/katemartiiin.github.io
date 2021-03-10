@@ -594,7 +594,7 @@ border-top: #eee solid 1px;
 text-align: right;
 }
 
-#modal-one, #modal-two, #modal-three, #modal-four, #modal-five, #modal-six{
+#modal-one, #modal-two, #modal-three, #modal-four, #modal-five, #modal-six, #modal-seven, #modal-eight{
   display: none;
   z-index: 999999999;
   filter: unset !important;
